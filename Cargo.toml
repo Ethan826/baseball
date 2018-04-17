@@ -1,0 +1,6 @@
+[package]
+name = "bb"
+version = "0.1.0"
+authors = ["Ethan Kent <ekent@canceriq.com>"]
+
+[dependencies]
