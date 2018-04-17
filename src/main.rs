@@ -1,4 +1,9 @@
-#[derive(Debug)]
+#[macro_use]
+extern crate lazy_static;
+
+use std::collections::HashSet;
+
+#[derive(Copy, Clone, Debug, Hash, PartialEq, Eq)]
 enum Event {
     PlayNotInvolvingTheBatter,
     PickoffThrowToFirst,
@@ -26,38 +31,50 @@ enum Event {
     BallPutInPlayOnPitchout,
 }
 
-const ANY_STRIKE: [Event; 7] = [
-    Event::StrikeUnknownTypeCalledOrSwinging,
-    Event::FoulBunt,
-    Event::MissedBuntAttempt,
-    Event::FoulTipOnBunt,
-    Event::SwingingOnPitchout,
-    Event::SwingingStrike,
-    //  Does this count? Event::FoulTip,
-    Event::CalledStrike,
-];
+lazy_static! {
+    static ref ANY_STRIKE: HashSet<Event> = [
+        Event::CalledStrike,
+        Event::FoulBunt,
+        Event::FoulTip,
+        Event::FoulTipOnBunt,
+        Event::MissedBuntAttempt,
+        Event::StrikeUnknownTypeCalledOrSwinging,
+        Event::SwingingOnPitchout,
+        Event::SwingingStrike,
+    ].iter()
+        .cloned()
+        .collect();
+    static ref STRIKE_LESS_THAN_2: HashSet<Event> = [
+        Event::CalledStrike,
+        Event::Foul,
+        Event::FoulBallOnPitchout,
+        Event::FoulBunt,
+        Event::FoulTip,
+        Event::FoulTipOnBunt,
+        Event::MissedBuntAttempt,
+        Event::StrikeUnknownTypeCalledOrSwinging,
+        Event::SwingingOnPitchout,
+        Event::SwingingStrike,
+    ].iter()
+        .cloned()
+        .collect();
+    static ref BALLS: HashSet<Event> = [
+        Event::Ball,
+        Event::IntentionalBall,
+        Event::CalledBallBecausePitcherWentToHisMouth,
+    ].iter()
+        .cloned()
+        .collect();
+}
 
-const STRIKE_LESS_THAN_2: [Event; 10] = [
-    Event::Foul,
-    Event::StrikeUnknownTypeCalledOrSwinging,
-    Event::FoulBunt,
-    Event::MissedBuntAttempt,
-    Event::FoulTipOnBunt,
-    Event::SwingingOnPitchout,
-    Event::FoulBallOnPitchout,
-    Event::SwingingStrike,
-    Event::FoulTip,
-    Event::CalledStrike,
-];
-
-#[derive(Debug)]
+#[derive(Clone, Copy, Debug)]
 enum Base {
     First,
     Second,
     Third,
 }
 
-#[derive(Debug)]
+#[derive(Clone, Debug)]
 enum OffensivePlayerState {
     Bench,
     Batter { balls: u8, strikes: u8 },
@@ -68,18 +85,39 @@ enum OffensivePlayerState {
 
 impl OffensivePlayerState {
     fn next(self, event: Event) -> OffensivePlayerState {
-        match self {
-            OffensivePlayerState::Batter { strikes, balls } if strikes < 2 => match event {
- => OffensivePlayerState::Batter {
+        match (&self, event) {
+            (OffensivePlayerState::Batter { strikes, balls }, _)
+                if *strikes < 2 && STRIKE_LESS_THAN_2.contains(&event) =>
+            {
+                OffensivePlayerState::Batter {
+                    balls: *balls,
                     strikes: strikes + 1,
-                    balls,
-                },
-                _ => 
-            },
-            _ => OffensivePlayerState::Failure(format!(
-                "Invalid state, event combination: {:#?}, {:#?}",
-                self, event
-            )),
+                }
+            }
+            (OffensivePlayerState::Batter { strikes, .. }, _)
+                if *strikes == 2 && ANY_STRIKE.contains(&event) =>
+            {
+                OffensivePlayerState::Out
+            }
+            (OffensivePlayerState::Batter { strikes, balls }, _)
+                if *balls < 3 && BALLS.contains(&event) =>
+            {
+                OffensivePlayerState::Batter {
+                    strikes: *strikes,
+                    balls: balls + 1,
+                }
+            }
+            (OffensivePlayerState::Batter { balls, .. }, _)
+                if *balls == 3 && BALLS.contains(&event) =>
+            {
+                OffensivePlayerState::Runner { base: Base::First }
+            }
+            _ => self.clone()
+            // Failure state for non-batting plays with batter
+            // _ => OffensivePlayerState::Failure(format!(
+            //     "Invalid state, event combination: {:?}, {:?}",
+            //     self, event
+            // )),
         }
     }
 }
@@ -89,10 +127,19 @@ fn main() {
         balls: 0,
         strikes: 0,
     };
-    let player_state = player_state.next(Event::CalledStrike);
     println!("{:?}", player_state);
     let player_state = player_state.next(Event::CalledStrike);
     println!("{:?}", player_state);
-    let player_state = player_state.next(Event::CalledStrike);
+    let player_state = player_state.next(Event::Ball);
+    println!("{:?}", player_state);
+    let player_state = player_state.next(Event::Foul);
+    println!("{:?}", player_state);
+    let player_state = player_state.next(Event::Ball);
+    println!("{:?}", player_state);
+    let player_state = player_state.next(Event::Ball);
+    println!("{:?}", player_state);
+    let player_state = player_state.next(Event::Foul);
+    println!("{:?}", player_state);
+    let player_state = player_state.next(Event::Ball);
     println!("{:?}", player_state);
 }

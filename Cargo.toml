@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Ethan Kent <ekent@canceriq.com>"]
 
 [dependencies]
+lazy_static = "1.0"
