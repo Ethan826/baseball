@@ -3,6 +3,9 @@ extern crate lazy_static;
 
 use std::collections::HashSet;
 
+// Credit for doing state machines in Rust this way goes to
+// https://hoverbear.org/2016/10/12/rust-state-machine-pattern/
+
 #[derive(Copy, Clone, Debug, Hash, PartialEq, Eq)]
 enum Event {
     PlayNotInvolvingTheBatter,
