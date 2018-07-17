@@ -1,5 +1,5 @@
 [[package]]
-name = "bb"
+name = "baseball"
 version = "0.1.0"
 dependencies = [
  "lazy_static 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",

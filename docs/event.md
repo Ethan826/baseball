@@ -6,55 +6,54 @@ Retrosheet Event Files
 width="400" height="46"}
 
 ::: {.mbcenter}
--   [Home](http://www.retrosheet.org/)
--   [About ↓](#)
-    -   [Overview](http://www.retrosheet.org/site.htm)
-    -   [FAQ](http://www.retrosheet.org/faq.htm)
--   [Games/People/Parks ↓](#)
-    -   [People →](#)
-        -   [Players](http://www.retrosheet.org/boxesetc/index.html#Players)
-        -   [Managers](http://www.retrosheet.org/boxesetc/index.html#Managers)
-        -   [Coaches](http://www.retrosheet.org/boxesetc/index.html#Coaches)
-        -   [Umpires](http://www.retrosheet.org/boxesetc/index.html#Umpires)
-        -   [Transactions](http://www.retrosheet.org/transactions/index.html)
-    -   [Games →](#)
-        -   [Regular
-            season](http://www.retrosheet.org/boxesetc/index.html)
-        -   [Tiebreaker
-            playoffs](http://www.retrosheet.org/Playoff%20Games.htm)
-        -   [Post-season](http://www.retrosheet.org/boxesetc/MISC/masterPS.htm)
-        -   [All-Star
-            games](http://www.retrosheet.org/boxesetc/MISC/masterAS.htm)
-    -   [Places →](#)
-        -   [Franchises](http://www.retrosheet.org/boxesetc/MISC/FRDIR.htm)
-        -   [Ballparks](http://www.retrosheet.org/boxesetc/MISC/PKDIR.htm)
-        -   [Birth and
-            death](http://www.retrosheet.org/boxesetc/MISC/PNDIR.htm)
-    -   [Achievements →](#)
-        -   [Awards](http://www.retrosheet.org/boxesetc/MISC/XOH.htm)
-        -   [Top
-            performances](http://www.retrosheet.org/boxesetc/index.html#TopPerf)
-        -   [No-hitters &
-            cycles](http://www.retrosheet.org/outstand.htm)
-        -   [Milestones](http://www.retrosheet.org/milestones.htm)
--   [Data downloads ↓](#)
-    -   [Play-by-play files](http://www.retrosheet.org/game.htm)
-    -   [Game logs](http://www.retrosheet.org/gamelogs/index.html)
-    -   [Schedules](http://www.retrosheet.org/schedule/index.html)
--   [Features ↓](#)
-    -   [Noteworthy events](http://www.retrosheet.org/lists.htm)
-    -   [Special features](http://www.retrosheet.org/specfeat.htm)
-    -   [Research
-        papers](http://www.retrosheet.org/Research/Research.htm)
-    -   [Most wanted](http://www.retrosheet.org/wanted/index.html)
--   [Organization ↓](#)
-    -   [Who we are](http://www.retrosheet.org/history.htm)
-    -   [Discussion group](http://groups.yahoo.com/group/RetroList)
-    -   [Donations](http://www.retrosheet.org/donation.htm)
--   [Archives ↓](#)
-    -   [Newsletters](http://www.retrosheet.org/news.htm)
-    -   [Site history](http://www.retrosheet.org/archives.htm)
-:::
+
+- [Home](http://www.retrosheet.org/)
+- [About ↓](#)
+  - [Overview](http://www.retrosheet.org/site.htm)
+  - [FAQ](http://www.retrosheet.org/faq.htm)
+- [Games/People/Parks ↓](#)
+  - [People →](#)
+    - [Players](http://www.retrosheet.org/boxesetc/index.html#Players)
+    - [Managers](http://www.retrosheet.org/boxesetc/index.html#Managers)
+    - [Coaches](http://www.retrosheet.org/boxesetc/index.html#Coaches)
+    - [Umpires](http://www.retrosheet.org/boxesetc/index.html#Umpires)
+    - [Transactions](http://www.retrosheet.org/transactions/index.html)
+  - [Games →](#)
+    - [Regular
+      season](http://www.retrosheet.org/boxesetc/index.html)
+    - [Tiebreaker
+      playoffs](http://www.retrosheet.org/Playoff%20Games.htm)
+    - [Post-season](http://www.retrosheet.org/boxesetc/MISC/masterPS.htm)
+    - [All-Star
+      games](http://www.retrosheet.org/boxesetc/MISC/masterAS.htm)
+  - [Places →](#)
+    - [Franchises](http://www.retrosheet.org/boxesetc/MISC/FRDIR.htm)
+    - [Ballparks](http://www.retrosheet.org/boxesetc/MISC/PKDIR.htm)
+    - [Birth and
+      death](http://www.retrosheet.org/boxesetc/MISC/PNDIR.htm)
+  - [Achievements →](#)
+    - [Awards](http://www.retrosheet.org/boxesetc/MISC/XOH.htm)
+    - [Top
+      performances](http://www.retrosheet.org/boxesetc/index.html#TopPerf)
+    - [No-hitters &
+      cycles](http://www.retrosheet.org/outstand.htm)
+    - [Milestones](http://www.retrosheet.org/milestones.htm)
+- [Data downloads ↓](#)
+  - [Play-by-play files](http://www.retrosheet.org/game.htm)
+  - [Game logs](http://www.retrosheet.org/gamelogs/index.html)
+  - [Schedules](http://www.retrosheet.org/schedule/index.html)
+- [Features ↓](#)
+  - [Noteworthy events](http://www.retrosheet.org/lists.htm)
+  - [Special features](http://www.retrosheet.org/specfeat.htm)
+  - [Research
+    papers](http://www.retrosheet.org/Research/Research.htm)
+  - [Most wanted](http://www.retrosheet.org/wanted/index.html)
+- [Organization ↓](#)
+  - [Who we are](http://www.retrosheet.org/history.htm)
+  - [Discussion group](http://groups.yahoo.com/group/RetroList)
+  - [Donations](http://www.retrosheet.org/donation.htm)
+- [Archives ↓](#) - [Newsletters](http://www.retrosheet.org/news.htm) - [Site history](http://www.retrosheet.org/archives.htm)
+  :::
 
 \
 
@@ -93,98 +92,99 @@ first four letters of the player's last name, the first initial of his
 common name, and a three digit number. If a player's last name is less
 than 4 characters long a dash "-" is used as a placeholder. Numbers
 starting with 0 are used for players appearing in games in or after
+
 1983. Players completing their careers before 1983 are assigned numbers
-starting with 100.
+      starting with 100.
 
 > joner002 is the Retrosheet player id for Ruppert Jones.
 
-*id* Each game begins with a twelve character ID record which identifies
+_id_ Each game begins with a twelve character ID record which identifies
 the date, home team, and number of the game. For example, ATL198304080
 should be read as follows. The first three characters identify the home
 team (the Braves). The next four are the year (1983). The next two are
 the month (April) using the standard numeric notation, 04, followed by
 the day (08). The last digit indicates if this is a single game (0),
 first game (1) or second game (2) if more than one game is played during
-a day, usually a double header The *id* record starts the description of
+a day, usually a double header The _id_ record starts the description of
 a game thus ending the description of the preceding game in the file.
 
 >     id,ATL198304080
 
-*version* The version record is next, but is obsolete and can be
+_version_ The version record is next, but is obsolete and can be
 ignored.
 
 > version,1
 
-*info* There are up to 34 info records, each of which contains a single
+_info_ There are up to 34 info records, each of which contains a single
 piece of information, such as the temperature, attendance, identity of
 each umpire, etc. The record format is info,type,data . The complete
 list of [info record types](#1) is given below.
 
 > info,attendance,32737
 
-*start* and *sub* There are 18 (for the NL and pre-DH AL) or 20 (for the
+_start_ and _sub_ There are 18 (for the NL and pre-DH AL) or 20 (for the
 AL with the DH) start records, which identify the starting lineups for
 the game. Each start or sub record has five fields. The sub records are
 used when a player is replaced during a game. The roster files that
 accompany the event files include throwing and batting handedness
 information.
 
-1\. The first field is the [Retrosheet player id](#2), which is unique
-for each player.
+1.  The first field is the [Retrosheet player id](#2), which is unique
+    for each player.
 
-2\. The second field is the player's name.
+2.  The second field is the player's name.
 
-3\. The next field is either 0 (for visiting team), or 1 (for home team).
+3.  The next field is either 0 (for visiting team), or 1 (for home team).
 
-4\. The next field is the position in the batting order, 1 - 9. When a
-game is played using the DH rule the pitcher is given the batting order
-position 0.
+4.  The next field is the position in the batting order, 1 - 9. When a
+    game is played using the DH rule the pitcher is given the batting order
+    position 0.
 
-5\. The last field is the fielding position. The numbers are in the
-standard notation, with designated hitters being identified as position
-10. On sub records 11 indicates a pinch hitter and 12 is used for a
-pinch runner.
+5.  The last field is the fielding position. The numbers are in the
+    standard notation, with designated hitters being identified as position
+6.  On sub records 11 indicates a pinch hitter and 12 is used for a
+    pinch runner.
 
 > start,richg001,"Gene Richards",0,1,7
 
-*play* The play records contain the events of the game. Each play record
+_play_ The play records contain the events of the game. Each play record
 has 7 fields.
 
-1\. The first field is the inning, an integer starting at 1.
+1.  The first field is the inning, an integer starting at 1.
 
-2\. The second field is either 0 (for visiting team) or 1 (for home
-team).
+2.  The second field is either 0 (for visiting team) or 1 (for home
+    team).
 
-3\. The third field is the [Retrosheet player id](#2) of the player at
-the plate.
+3.  The third field is the [Retrosheet player id](#2) of the player at
+    the plate.
 
-4\. The fourth field is the count on the batter when this particular
-event (play) occurred. Most Retrosheet games do not have this
-information, and in such cases, "??" appears in this field.
+4.  The fourth field is the count on the batter when this particular
+    event (play) occurred. Most Retrosheet games do not have this
+    information, and in such cases, "??" appears in this field.
 
-5\. The fifth field is of variable length and contains all pitches to
-this batter in this plate appearance and is [described below](#3). If
-pitches are unknown, this field is left empty, nothing is between the
-commas.
+5.  The fifth field is of variable length and contains all pitches to
+    this batter in this plate appearance and is [described below](#3). If
+    pitches are unknown, this field is left empty, nothing is between the
+    commas.
 
-6\. The sixth field describes the play or event that occurred.
+6.  The sixth field describes the play or event that occurred.
 
 > play,5,1,ramir001,00,,S8.3-H;1-2
 
-A play record ending in a number sign, \#, indicates that there is some
+A play record ending in a number sign, ., indicates that there is some
 uncertainty in the play. Occasionally, a com record may follow providing
 additional information. A play record may also contain exclamation
 points, "!" indicating an exceptional play and question marks "?"
 indicating some uncertainty in the play. These characters can be safely
 ignored.
 
-> play,3,1,kearb001,??,,PB.2-3\#\
+> play,3,1,kearb001,??,,PB.2-3.\
 > com,"Not sure if PB, may have been balk"
 
 The event is the most complex of all the fields and is [described in
 detail below](#5).
 
-*badj* This record is used to mark a plate appearance in which the
+_badj_ This record is used to mark a plate appearance in which the
 batter bats from the side that is not expected ("badj" means "batting
 adjustment"). The syntax is:
 
@@ -193,29 +193,29 @@ adjustment"). The syntax is:
 The expectation is defined by the roster file. There are two general
 cases in which this is used:
 
-1\. Many switch-hitters bat right-handed against right-handed knuckle
-ball pitchers even though the default assumption is that they would be
-batting left-handed.
+1.  Many switch-hitters bat right-handed against right-handed knuckle
+    ball pitchers even though the default assumption is that they would be
+    batting left-handed.
 
 > [badj,bonib001,R]{style="font-family: monospace;"}
 
 indicates that switch-hitter Bobby Bonilla was batting right-handed
 against a right-handed pitcher.\
 
-2\. Occasionally a player will be listed in a roster as batting "R" or
-"L" but will bat the other way. For example, Rick Dempsey did this 13
-times in 1983. The syntax this is: badj,dempr101,L
+2.  Occasionally a player will be listed in a roster as batting "R" or
+    "L" but will bat the other way. For example, Rick Dempsey did this 13
+    times in 1983. The syntax this is: badj,dempr101,L
 
-*padj* This record covers the very rare case in which a pitcher pitches
+_padj_ This record covers the very rare case in which a pitcher pitches
 to a batter with the hand opposite the one listed in the roster file. To
 date this has only happened once, when Greg Harris of the Expos, a
 right-hander, pitched left-handed to two Cincinnati batters on
 9-28-1995. The syntax is parallel to that for the badj record:
 [padj,harrg001,L]{style="font-family: monospace;"}
 
-*ladj* This record is used when teams bat out of order.
+_ladj_ This record is used when teams bat out of order.
 
-*data* Data records appear after all play records from the game. At
+_data_ Data records appear after all play records from the game. At
 present, the only data type, field 2, that is defined specifies the
 number of earned runs allowed by a pitcher. Each such record contains
 the pitcher's [Retrosheet player id](#2) and the number of earned runs
@@ -224,22 +224,22 @@ game.
 
 > data,er,showe001,2
 
-*com* The final record type is used primarily to add explanatory
+_com_ The final record type is used primarily to add explanatory
 information for a play. However, it may occur anywhere in a file. The
 second field of the com record is quoted.
 
 > com,"ML debut for Behenna"
 
-There is a standard record ordering for each game. An *id* record starts
-the description of a particular game. This is followed by the *version*
-and *info* records. The *start* records follow the *info* records. The
-game is described by a series of *play*, *sub* and *com* records. A
-*sub* record is always preceded by a *play np* record. *data* records
-follow the last *play* record for the game. A game description is
-terminated by an *id* record starting another game or the end of the
+There is a standard record ordering for each game. An _id_ record starts
+the description of a particular game. This is followed by the _version_
+and _info_ records. The _start_ records follow the _info_ records. The
+game is described by a series of _play_, _sub_ and _com_ records. A
+_sub_ record is always preceded by a _play np_ record. _data_ records
+follow the last _play_ record for the game. A game description is
+terminated by an _id_ record starting another game or the end of the
 file.
 
-### []{#1}Info record types 
+### []{#1}Info record types
 
 Complete records are shown. [info]{style="font-style: italic;"} records
 are of two general kinds, game-related and administrative. The order of
@@ -264,7 +264,7 @@ this is a double header:
 > info,number,0
 
 The hometeam, date and number records duplicate the information in the
-*id* record.
+_id_ record.
 
 Game starting time is given by the two records (0:00 and unknown
 indicate missing information):
@@ -277,7 +277,7 @@ Use of the designated hitter is indicated with true or false:
 > info,usedh,false
 
 The presence or absence of pitch information is given. For some games,
-the bal-strike counts of the plays are shown, but no pitch detail is
+the ball-strike counts of the plays are shown, but no pitch detail is
 provided. (pitches, count or none):
 
 > [info,pitches,pitches]{style="font-family: monospace;"}
@@ -361,7 +361,7 @@ processed (administrative data) are:
 > info,scorer,"Braves"\
 > info,translator,"C. Chestnut"
 
-------------------------------------------------------------------------
+---
 
 ### []{#3}The pitches field of the play record
 
@@ -401,7 +401,7 @@ such games.
         X  ball put into play by batter
         Y  ball put into play on pitchout
 
-------------------------------------------------------------------------
+---
 
 ### []{#5}The event field of the play record
 
@@ -442,8 +442,8 @@ meaning of a particular number depends on where it appears in the event.
 For the descriptions that follow the following notation will be used:
 
 > Fielders will be represented by a number in the range 1 (pitcher) to 9
-> (right fielder) using a dollar sign, "\$". When two \$ symbols are
-> used, \$\$, this is understood to mean a sequence of two or more
+> (right fielder) using a dollar sign, ".". When two . symbols are
+> used, .., this is understood to mean a sequence of two or more
 > fielders.
 >
 > Bases are represented by a percent sign, "%", representing one of five
@@ -469,11 +469,11 @@ For purposes of description, it is convenient to separate the event
 types into two categories: those involving the [batter at the plate](#8)
 and [base running](#9) plays that do not involve the batter.
 
-------------------------------------------------------------------------
+---
 
 ### []{#8}Events made by the batter at the plate
 
-[\$]{style="font-weight: bold;"} A single fielder represents a fly ball
+[.]{style="font-weight: bold;"} A single fielder represents a fly ball
 out made by the specified fielder. Modifiers can be added to indicate
 the fly ball trajectory: G for ground ball, L for line drive, P for pop
 up, F for a fly ball BG for bunt grounder, BP for bunt pop up. The ball
@@ -496,7 +496,7 @@ modifier G follows the event.
 > indicates an unassisted out made by the first baseman with the runner
 > on second advancing to third.
 
-[\$\$]{style="font-weight: bold;"} Strings of two or more fielders as an
+[..]{style="font-weight: bold;"} Strings of two or more fielders as an
 event specify a ground out where the put out is credited by the last
 fielder in the string. Other fielders are credited with assists.
 
@@ -527,7 +527,7 @@ sacrifice hits or bunts that advance a runner.
 
 > play,6,1,camik001,00,X,23/SH.1-2
 
-[\$(%)\$ \$\$(%)\$]{style="font-weight: bold;"} Events of this form are
+[.(%). ..(%).]{style="font-weight: bold;"} Events of this form are
 used to code grounded into double plays.
 
 > [play,7,0,backw001,11,FBX,64(1)3/GDP/G6]{style="font-family: monospace;"}\
@@ -539,7 +539,7 @@ used to code grounded into double plays.
 > An unassisted ground ball out by the second baseman starts this double
 > play.
 
-[\$(B)\$(%)]{style="font-weight: bold;"} followed by the modifier LDP is
+[.(B).(%)]{style="font-weight: bold;"} followed by the modifier LDP is
 used to indicate a lined into double play.
 
 > [play,7,0,leonj001,01,CX,8(B)84(2)/LDP/L8]{style="font-family: monospace;"}\
@@ -553,7 +553,7 @@ used to indicate a lined into double play.
 The double play notation can be extended in obvious ways to describe
 triple plays.
 
-> play,7,1,randw001,00,.\>X,1(B)16(2)63(1)/LTP/L1
+> play,7,1,randw001,00,..X,1(B)16(2)63(1)/LTP/L1
 
 [Note:]{style="font-weight: bold;"} the double digit combination 99,
 which cannot arise in play, is used to code unknown plays including
@@ -573,11 +573,11 @@ with the batter putting him on first without being charged with an at
 bat. In these cases C is interpreted as interference by the fielder
 specified following the E, not the catcher.
 
-[S\$]{style="font-weight: bold;"} single\
-[D\$]{style="font-weight: bold;"} double\
-[T\$]{style="font-weight: bold;"} triple\
+[S.]{style="font-weight: bold;"} single\
+[D.]{style="font-weight: bold;"} double\
+[T.]{style="font-weight: bold;"} triple\
 A hit (excepting a home run) is indicated by one of S, D and T
-optionally followed by the fielder, \$, initially handling the ball. If
+optionally followed by the fielder, ., initially handling the ball. If
 more than one fielder handles the ball the appropriate sequence of
 fielders is given. The fielder designation is omitted if that
 information is not known. The batter advance to the designated base is
@@ -602,8 +602,8 @@ No fielding player is specified.
 
 > play,3,0,surhb001,10,.BX,DGR/L9LS.2-H
 
-[E\$]{style="font-weight: bold;"} is the code for an error allowing a
-batter to get on base. The fielder making the error is given by \$. The
+[E.]{style="font-weight: bold;"} is the code for an error allowing a
+batter to get on base. The fielder making the error is given by .. The
 batter advance to first is implicit but may be given explicitly.
 
 > [play,2,0,ruffb001,10,BX,E1/TH/BG15.1-3]{style="font-family: monospace;"}\
@@ -615,7 +615,7 @@ batter advance to first is implicit but may be given explicitly.
 > indicates a fielding error by the first baseman. In this case the
 > batter advance to first has been explicitly given.
 
-[FC\$]{style="font-weight: bold;"} Fielder's choice. \$ is the fielder
+[FC.]{style="font-weight: bold;"} Fielder's choice. . is the fielder
 first fielding the ball. The batter advance to first is understood if it
 is not given explicitly.
 
@@ -632,7 +632,7 @@ is not given explicitly.
 > notation distinguishes between force outs and non-forced fielder's
 > choices.\
 
-[FLE\$]{style="font-weight: bold;"} Error on foul fly ball.
+[FLE.]{style="font-weight: bold;"} Error on foul fly ball.
 
 > play,5,0,murre001,00,F,FLE5/P5F
 
@@ -647,7 +647,7 @@ used to indicate where the ball left the playing field.
 > shows a home run into center field with the runners on first and
 > second scoring.
 
-[H\$]{style="font-weight: bold;"} or [HR\$]{style="font-weight: bold;"}
+[H.]{style="font-weight: bold;"} or [HR.]{style="font-weight: bold;"}
 indicates an inside-the-park home run by giving a fielder as part of the
 code.
 
@@ -668,7 +668,7 @@ advance to first is implicit. Other advances are given if needed.
 
 [K+event]{style="font-weight: bold;"} On third strikes various base
 running play may also occur. The event can be SB%, CS%, OA, PO%, PB, WP
-and E\$.
+and E..
 
 > [play,2,0,roomr001,12,1BF1S11S,K+PB.1-2]{style="font-family: monospace;"}\
 > A passed ball on strike three allowed the runner on first to go to
@@ -694,20 +694,20 @@ intentional walk\
 [W]{style="font-weight: bold;"} walk. In both cases base runner advances
 are given if needed. The batter advance to first base is implicit.
 
-> play,6,1,ripkc001,32,CFBBFB\>B,W.1-2
+> play,6,1,ripkc001,32,CFBBFB.B,W.1-2
 >
 > play,8,0,sciom001,30,B+22.III,IW
 
 [W+event]{style="font-weight: bold;"},
 [IW+event]{style="font-weight: bold;"}. On ball four various base
 running plays may also occur. The event can be SB%, CS%, PO%, PB, WP and
-E\$.
+E..
 
 > [play,1,1,sandr001,32,C1FBB.BFB,W+WP.2-3]{style="font-family: monospace;"}\
 > The fourth ball was a wild pitch allowing the runner on second to
 > advance.
 
-------------------------------------------------------------------------
+---
 
 ### []{#9}Base-running events not involving the batter
 
@@ -722,9 +722,9 @@ will be followed by another event listing the batter.
 
 > play,6,0,niekp001,??,,BK.3-H;1-2
 
-[CS%(\$\$)]{style="font-weight: bold;"} is the event code for caught
+[CS%(..)]{style="font-weight: bold;"} is the event code for caught
 stealing. The bases, %, for this play are 2,3 and H. The fielding data,
-\$\$, is considered part of the play. Other advances may be given.
+.., is considered part of the play. Other advances may be given.
 
 > play,5,1,ceror001,??,,CSH(12)
 >
@@ -755,8 +755,8 @@ is unable to handle a pitch and a base runner advances.
 >
 > play,1,1,evand002,01,CB,PB.2-3
 
-[PO%(\$\$)]{style="font-weight: bold;"} picked off of base % (1, 2 or 3)
-with the (\$\$) indicating the throw(s) and fielder making the putout.
+[PO%(..)]{style="font-weight: bold;"} picked off of base % (1, 2 or 3)
+with the (..) indicating the throw(s) and fielder making the putout.
 
 > [play,4,0,guerp001,00,22,PO2(14)]{style="font-family: monospace;"}\
 > indicates the runner on second was out by a pick off throw from the
@@ -768,8 +768,8 @@ with the (\$\$) indicating the throw(s) and fielder making the putout.
 > presence of the error (E3) negates the out normally associated with
 > the pickoff play.
 
-[POCS%(\$\$)]{style="font-weight: bold;"} picked off off base % (2, 3 or
-H) with the runner charged with a caught stealing. The (\$\$) is the
+[POCS%(..)]{style="font-weight: bold;"} picked off off base % (2, 3 or
+H) with the runner charged with a caught stealing. The (..) is the
 sequence of throws resulting in the out.
 
 > play,6,1,javis001,10,B1,POCS2(1361)
@@ -784,12 +784,12 @@ The bases, %, for this play are 2,3 and H.
 > show double steals, second and third in one case, second and home in
 > the other.
 
-------------------------------------------------------------------------
+---
 
 ### []{#6}Play modifiers and explanations
 
 Each modifier is preceded by / in a play record. As always, % indicates
-one the four bases and \$ indicates a fielder.
+one the four bases and . indicates a fielder.
 
     AP    appeal play
     BP    pop up bunt
@@ -857,7 +857,7 @@ one the four bases and \$ indicates a fielder.
     they are individually parenthesized.
     A successful advance is given in the form 1-2. The
     dash "-" indicates a successful advance. Multiple base advances are
-    indicated with the same notation: B-2, 1-3, 1-H, 2-H. 
+    indicated with the same notation: B-2, 1-3, 1-H, 2-H.
     play,1,1,marte001,32,BBCBFFB,W.2-3;1-2
       play,3,1,stilk001,11,CBX,S7/F7S.2-H;B-2
 
@@ -876,7 +876,7 @@ one the four bases and \$ indicates a fielder.
     play,3,0,fielc001,00,X,S7/L7LD.3-H;2-H;BX2(7E4)
 
     Following a second baseman error the batter is safe at second. The
-    error indicator negates the out. The left fiellder is credited with an
+    error indicator negates the out. The left fielder is credited with an
     assist.
       play,7,0,puckk001,01,CX,S5/G5.1-3(E5/TH)
 
@@ -966,18 +966,18 @@ one the four bases and \$ indicates a fielder.
 
     Replay
 
-    Instant replay of home run calls was instituted on 8/28/2008. It was expanded at the start of the 2014 
-    season to include many other types of plays. For a more complete explanation and list all replays, see 
+    Instant replay of home run calls was instituted on 8/28/2008. It was expanded at the start of the 2014
+    season to include many other types of plays. For a more complete explanation and list all replays, see
     the following two pages.
 
     http://www.retrosheet.org/ReplayHR.htm
     http://www.retrosheet.org/Replay.htm
 
-    Each time the replay system is used, a slash tag is added to the play string. This will be /UREV for an 
-    umpire-initiated review and /MREV for a manager challenge. Immediately after that play there will be a 
+    Each time the replay system is used, a slash tag is added to the play string. This will be /UREV for an
+    umpire-initiated review and /MREV for a manager challenge. Immediately after that play there will be a
     comment record with details of the replay/challenge. The fields in this string are:
 
-    com,"replay,inning,Batter ID,Batter Team ID,Umpire ID,Ballpark ID,Reason,Reversed,Initiator,Team,Type 
+    com,"replay,inning,Batter ID,Batter Team ID,Umpire ID,Ballpark ID,Reason,Reversed,Initiator,Team,Type
     Code"
 
        Inning: inning in which the replay occurred
