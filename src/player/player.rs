@@ -8,7 +8,7 @@ pub struct Player {
     number: String,
 }
 
-impl StateMachine for Player {
+impl<'a> StateMachine for Player {
     fn next(&self, _event: &Event) -> Player {
         self.clone()
     }

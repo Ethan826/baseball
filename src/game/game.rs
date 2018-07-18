@@ -15,15 +15,15 @@ pub enum Out {
 }
 
 #[derive(Debug, Clone)]
-pub struct Game {
-    pub home_team: Team,
-    pub visiting_team: Team,
+pub struct Game<'a> {
+    pub home_team: Team<'a>,
+    pub visiting_team: Team<'a>,
     pub inning: Inning,
     pub out: Out,
 }
 
-impl StateMachine for Game {
-    fn next(&self, event: &Event) -> Game {
+impl<'a> StateMachine for Game<'a> {
+    fn next(&self, event: &Event) -> Game<'a> {
         Self {
             home_team: self.home_team.next(event),
             visiting_team: self.visiting_team.next(event),
@@ -36,5 +36,21 @@ impl StateMachine for Game {
 impl StateMachine for Out {
     fn next(&self, _event: &Event) -> Out {
         self.clone()
+    }
+}
+
+// =================================================================================================
+// Test helpers
+// =================================================================================================
+
+#[cfg(test)]
+impl Game {
+    fn base() -> Game {
+        Game {
+            home_team: Team::base(),
+            visiting_team: Team::base(),
+            inning: Inning::base(),
+            out: Out::base(),
+        }
     }
 }
