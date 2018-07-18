@@ -8,6 +8,7 @@
  * even if "Out Recorded" is not an event recognized explicitly by Retrosheet.
  */
 
+#[derive(Debug, Clone)]
 pub enum Event {
     // Plays initiated by pitcher
     PickoffThrowToFirst,
