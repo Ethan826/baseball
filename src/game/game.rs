@@ -1,7 +1,6 @@
-/**
- * The game namespace is responsible for the state of the game and for holding
- * the teams playing the game.
- */
+//! The game namespace is responsible for the state of the game and for holding
+//! the teams playing the game.
+
 use event::event::Event;
 use game::inning::Inning;
 use team::team::Team;
@@ -14,22 +13,17 @@ pub enum Out {
     Three,
 }
 
-#[derive(Debug, Clone)]
+#[derive(Clone, Debug)]
 pub struct Game<'a> {
-    pub home_team: Team<'a>,
-    pub visiting_team: Team<'a>,
+    pub home_team: &'a mut Team<'a>,
+    pub visiting_team: &'a mut Team<'a>,
     pub inning: Inning,
     pub out: Out,
 }
 
 impl<'a> StateMachine for Game<'a> {
-    fn next(&self, event: &Event) -> Game<'a> {
-        Self {
-            home_team: self.home_team.next(event),
-            visiting_team: self.visiting_team.next(event),
-            inning: self.inning.next(event),
-            out: self.out.next(event),
-        }
+    fn next(&self, _event: &Event) -> Game<'a> {
+        self.clone()
     }
 }
 

@@ -1,26 +1,22 @@
-/**
- * The team namespace is responsible for the state of the team and for holding
- * the players in the game.
- */
-use std::collections::HashSet;
+//! The team namespace is responsible for the state of the team and for holding
+//!  the players in the game.
+
+use std::collections::BTreeSet;
+use world::world::Id;
 
 use event::event::Event;
-use player::player::Player;
 use traits::StateMachine;
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Hash)]
 pub struct Team<'a> {
-    pub roster: HashSet<&'a Player>,
-    pub lineup: Vec<usize>, // Indices into roster
-    pub current_batter: usize,
+    pub roster: BTreeSet<&'a Id>,
+    pub lineup: BTreeSet<&'a Id>,
+    pub current_batter: &'a Id,
 }
 
 impl<'a> StateMachine for Team<'a> {
-    fn next(&self, event: &Event) -> Team<'a> {
-        Team {
-            roster: self.roster.iter().map(|p| p.next(event)).collect(),
-            lineup: self.lineup.iter().map(|p| p.next(event)).collect(),
-        }
+    fn next(&self, _event: &Event) -> Team<'a> {
+        self.clone()
     }
 }
 
@@ -29,11 +25,6 @@ impl<'a> StateMachine for Team<'a> {
 // =================================================================================================
 
 #[cfg(test)]
-impl Team {
-    fn base() {
-        Team {
-            players: (0..25).map(|_| Player::base()).collect(),
-            lineup,
-        }
-    }
+impl<'a> Team<'a> {
+    fn base() {}
 }
